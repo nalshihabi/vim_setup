@@ -4,10 +4,10 @@ sudo apt-get upgrade -y
 
 # Copy over vimfiles
 mkdir ~/.vim
-cp colors.vim ~/.vim
-cp filetypes.vim ~/.vim
-cp extended.vim ~/.vim
-cp .vim
+cp colors.vim ~/.vim/
+cp filetypes.vim ~/.vim/
+cp extended.vim ~/.vim/
+cp .vimrc ~/
 
 # Get Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim

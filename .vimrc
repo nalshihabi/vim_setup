@@ -13,7 +13,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Call for my colors
-source ~/.colors.vim
+source ~/.vim/colors.vim
 
 " YouCompleteMe
 Plugin 'valloric/youcompleteme'
@@ -57,6 +57,9 @@ Plugin 'hari-rangarajan/cctree'
 " Flake8
 Plugin 'nvie/vim-flake8'
 
+" Space Vim Theme
+Plug 'liuchengxu/space-vim-theme'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -67,12 +70,12 @@ filetype plugin indent on    " required
 
 " source ~/.vim_runtime/vimrcs/basic.vim
 " source ~/.vimrc_copy
-source ~/.vim_runtime/vimrcs/filetypes.vim
+source ~/.vim/filetypes.vim
 " source ~/.vim_runtime/vimrcs/plugins_config.vim
-source ~/.vim_runtime/vimrcs/extended.vim
+source ~/.vim/extended.vim
 
 try
-source ~/.vim_runtime/my_configs.vim
+source ~/.vim/my_configs.vim
 catch
 endtry
 
