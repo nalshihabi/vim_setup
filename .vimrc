@@ -298,8 +298,12 @@ autocmd Filetype json setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 "----------------------------------------
 " Day an night settings
-:command Day set background=light
-:command Night set background=dark
+if !exists(":Day")
+    :command Day set background=light
+endif
+if !exists(":Night")
+    :command Night set background=dark
+endif
 
 "----------------------------------------
 " Window Resizing Settting
@@ -312,3 +316,4 @@ set colorcolumn=80
 "----------------------------------------
 " MUST be last command
 autocmd VimEnter * 2wincmd w
+:Night
