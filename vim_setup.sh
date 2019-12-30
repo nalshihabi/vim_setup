@@ -13,7 +13,7 @@ cp .vimrc ~/
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Setup YouCompleteMe
-sudo apt install build-essential cmake3 python3-dev
-cd ~/.vim/bundle/YouCompleteMe
+sudo apt install build-essential cmake python3-dev -y
+cd ~/.vim/bundle/youcompleteme
 python3 install.py --clang-completer
 python3 install.py --all
