@@ -58,7 +58,7 @@ Plugin 'hari-rangarajan/cctree'
 Plugin 'nvie/vim-flake8'
 
 " Space Vim Theme
-Plug 'liuchengxu/space-vim-theme'
+" Plugin 'liuchengxu/space-vim-theme'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
